@@ -1,0 +1,64 @@
+#共通無視フォルダ
+[Dd]ebug/
+[Rr]elease/
+packages/
+.vs
+.idea
+
+DirectX12Framework/Library/*
+!DirectX12Framework/Library/DXRHelper
+
+# # GitLFSを利用することで、Audioとかのアセット周りもコミットできるかも
+DirectX12Framework/Assets/*
+!DirectX12Framework/Assets/Scenes/
+!DirectX12Framework/Assets/Data
+!DirectX12Framework/Assets/Data/**
+
+#共通無視拡張子
+*.tlog
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.log
+*.ipch
+*.opendb
+*.db
+*.suo
+*.inc
+*.shaderInc
+
+*.pptx
+*.xlsx
+
+*.exe
+**.dll
+
+imgui.ini
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebugPublic/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# others
+DirectX12Framework/Assets/Data/Json/Random/
