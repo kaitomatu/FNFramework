@@ -5,14 +5,14 @@ packages/
 .vs
 .idea
 
-DirectX12Framework/Library/*
-!DirectX12Framework/Library/DXRHelper
+FNFramework/Library/*
+!FNFramework/Library/DXRHelper
 
 # # GitLFSを利用することで、Audioとかのアセット周りもコミットできるかも
-DirectX12Framework/Assets/*
-!DirectX12Framework/Assets/Scenes/
-!DirectX12Framework/Assets/Data
-!DirectX12Framework/Assets/Data/**
+FNFramework/Assets/*
+!FNFramework/Assets/Scenes/
+!FNFramework/Assets/Data
+!FNFramework/Assets/Data/**
 
 #共通無視拡張子
 *.tlog
@@ -61,4 +61,4 @@ bld/
 *.code-workspace
 
 # others
-DirectX12Framework/Assets/Data/Json/Random/
+FNFramework/Assets/Data/Json/Random/

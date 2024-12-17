@@ -1,0 +1,374 @@
+{
+    "AmbientLight": [
+        0.3370000123977661,
+        0.3370000123977661,
+        0.3370000123977661,
+        1.0
+    ],
+    "DistanceFogDensity": 0.019607843831181526,
+    "DistanceFogStart": 31.06999969482422,
+    "FogColor": [
+        0.016588358208537102,
+        0.006828142795711756,
+        0.14509804546833038
+    ],
+    "FogEnable": 1,
+    "LigColor": [
+        0.0,
+        0.18379393219947815,
+        0.5063520669937134
+    ],
+    "LigDirection": [
+        1.0,
+        -1.0,
+        1.0
+    ],
+    "Objects": [
+        {
+            "Components": [
+                {
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "ComponentID": 0,
+                    "ComponentName": "class ModelComponent",
+                    "CullingType": 1,
+                    "Enable": true,
+                    "ModelName": "SkySphere/SkySphere",
+                    "Offset": [
+                        0.0,
+                        0.0
+                    ],
+                    "RenderType": [
+                        4
+                    ],
+                    "Tilling": [
+                        1.0,
+                        1.0
+                    ]
+                },
+                {
+                    "ComponentID": 1,
+                    "ComponentName": "class TransformComponent",
+                    "Enable": true,
+                    "Position": [
+                        0.0,
+                        0.0,
+                        3.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        20.0,
+                        20.0,
+                        20.0
+                    ]
+                }
+            ],
+            "Name": "SkySphere",
+            "ParentName": ""
+        },
+        {
+            "Components": [
+                {
+                    "Aspect": 1.7777777910232544,
+                    "CameraName": "MainCamera",
+                    "ComponentID": 0,
+                    "ComponentName": "class TrackingCameraComponent",
+                    "Enable": true,
+                    "FarClip": 1000.0,
+                    "LocalCameraPos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MouseDegAng": [
+                        66.0,
+                        54.999996185302734,
+                        0.0
+                    ],
+                    "NearClip": 0.009999999776482582,
+                    "ProjectionType": "struct CameraProjMatInfo::PerspectiveInfo",
+                    "Sensitivity": 3.0,
+                    "TargetObject": "SkySphere",
+                    "ViewAngle": 1.0471975803375244,
+                    "ViewMat": {
+                        "Forward": [
+                            0.33317914605140686,
+                            -0.9135454893112183,
+                            0.2332945466041565
+                        ],
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Right": [
+                            0.5735764503479004,
+                            0.0,
+                            -0.8191520571708679
+                        ],
+                        "Up": [
+                            0.0,
+                            1.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "CameraName": "LightCamera",
+                    "ComponentID": 1,
+                    "ComponentName": "class TrackingCameraComponent",
+                    "Enable": true,
+                    "FarClip": 100.0,
+                    "Height": 50.0,
+                    "LocalCameraPos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MouseDegAng": [
+                        66.0,
+                        54.999996185302734,
+                        0.0
+                    ],
+                    "NearClip": 0.0,
+                    "ProjectionType": "struct CameraProjMatInfo::OrthographicInfo",
+                    "Sensitivity": 3.0,
+                    "ViewMat": {
+                        "Forward": [
+                            0.33317914605140686,
+                            -0.9135454893112183,
+                            0.2332945466041565
+                        ],
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Right": [
+                            0.5735764503479004,
+                            0.0,
+                            -0.8191520571708679
+                        ],
+                        "Up": [
+                            0.0,
+                            1.0,
+                            0.0
+                        ]
+                    },
+                    "Width": 40.0
+                },
+                {
+                    "ComponentID": 2,
+                    "ComponentName": "class TransformComponent",
+                    "Enable": true,
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "Name": "MainCamera",
+            "ParentName": ""
+        },
+        {
+            "Components": [
+                {
+                    "AnimationSpeed": 1.0,
+                    "ClampValue": [
+                        0.0,
+                        1.0
+                    ],
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "ComponentID": 0,
+                    "ComponentName": "class SpriteComponent",
+                    "Duration": 0.0,
+                    "EasingType": "Default",
+                    "Enable": true,
+                    "IsEasing": false,
+                    "IsLoop": true,
+                    "MainTexPath": "Assets/Texture/BackgroundImage.png",
+                    "Offset": [
+                        0.0,
+                        0.0
+                    ],
+                    "Pivot": [
+                        0.5,
+                        0.5
+                    ],
+                    "PixelPos": [
+                        0.0,
+                        0.0,
+                        1280.0,
+                        720.0
+                    ],
+                    "Reverse": false,
+                    "Tiling": [
+                        1.0,
+                        1.0
+                    ],
+                    "UpdateOrder": 99
+                },
+                {
+                    "AnimationSpeed": 1.0,
+                    "ClampValue": [
+                        0.0,
+                        1.0
+                    ],
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "ComponentID": 1,
+                    "ComponentName": "class SpriteComponent",
+                    "Duration": 0.0,
+                    "EasingType": "EaseInOutSine",
+                    "Enable": true,
+                    "IsEasing": false,
+                    "IsLoop": true,
+                    "MainTexPath": "Assets/Texture/Title/TitleBar.png",
+                    "Offset": [
+                        0.0,
+                        0.0
+                    ],
+                    "Pivot": [
+                        0.5,
+                        0.5
+                    ],
+                    "PixelPos": [
+                        0.0,
+                        175.0,
+                        640.0,
+                        192.0
+                    ],
+                    "Reverse": false,
+                    "Tiling": [
+                        1.0,
+                        1.0
+                    ],
+                    "UpdateOrder": 100
+                },
+                {
+                    "AnimationSpeed": 2.0,
+                    "ClampValue": [
+                        0.5,
+                        1.0
+                    ],
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        0.9971587061882019
+                    ],
+                    "ComponentID": 2,
+                    "ComponentName": "class SpriteComponent",
+                    "Duration": 1.0,
+                    "EasingType": "EaseInOutSine",
+                    "Enable": true,
+                    "IsEasing": true,
+                    "IsLoop": true,
+                    "MainTexPath": "Assets/Texture/Title/PressEnter.png",
+                    "Offset": [
+                        0.0,
+                        0.0
+                    ],
+                    "Pivot": [
+                        0.5,
+                        0.5
+                    ],
+                    "PixelPos": [
+                        25.0,
+                        -253.0,
+                        416.0,
+                        80.0
+                    ],
+                    "Reverse": false,
+                    "Tiling": [
+                        1.0,
+                        1.0
+                    ],
+                    "UpdateOrder": 100
+                },
+                {
+                    "ComponentID": 3,
+                    "ComponentName": "class TransformComponent",
+                    "Enable": true,
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "Name": "BackgroundImage",
+            "ParentName": ""
+        },
+        {
+            "Components": [
+                {
+                    "ComponentID": 0,
+                    "ComponentName": "class TitleScript",
+                    "Enable": true,
+                    "StartSceneName": "Stage1"
+                },
+                {
+                    "ComponentID": 1,
+                    "ComponentName": "class TransformComponent",
+                    "Enable": true,
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "Name": "TitleScript",
+            "ParentName": ""
+        }
+    ]
+}
